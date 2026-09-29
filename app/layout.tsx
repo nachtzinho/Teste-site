@@ -5,7 +5,6 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'TLGD | Planos e preços',
   description: 'Assine, envie e acompanhe seus documentos com a TLGD.',
-  generator: 'v0.app',
   icons: {
     icon: [
       {
