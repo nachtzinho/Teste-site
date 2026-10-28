@@ -18,7 +18,7 @@ const plans: Plan[] = [
 //  { name: 'Básico', description: 'Para começar com uma operação enxuta, organizada e eficiente.', fleet: 'Até 10 veículos', contract: '3 anos', annualPrice: 'R$ 24.000', totalPrice: 'R$ 72.000', features: ['Gestão de até 10 veículos', 'Contrato de 3 anos', 'Cobrança anual simplificada', 'Suporte pelo WhatsApp'] },
   { name: 'Essencial', description: 'O equilíbrio ideal entre prazo, previsibilidade e tranquilidade.', fleet: 'Até 50 veículos', contract: '5 anos', annualPrice: 'R$ 24.000', totalPrice: 'R$ 120.000', features: ['Gestão de até 50 veículos', 'Contrato de 5 anos', 'Cobrança anual simplificada', 'Suporte pelo WhatsApp'], popular: true },
   { name: 'Profissional', description: 'Mais capacidade para empresas que precisam crescer com controle.', fleet: 'Até 100 veículos', contract: '10 anos', annualPrice: 'R$ 30.000', totalPrice: 'R$ 300.000', features: ['Gestão de até 100 veículos', 'Contrato de 10 anos', 'Cobrança anual simplificada', 'Suporte prioritário'] },
-  { name: 'Premium', description: 'A estrutura completa para operações grandes e sem limite de frota.', fleet: 'veículos ilimitados', contract: '10 anos', annualPrice: 'R$ 44.000', totalPrice: 'R$ 440.000', features: ['Gestão de veículos ilimitados', 'Contrato de 10 anos', 'Cobrança anual simplificada', 'Atendimento dedicado'] },
+  { name: 'Premium', description: 'A estrutura completa para operações grandes e sem limite de frota.', fleet: 'veículos ilimitados', contract: '10 anos', annualPrice: 'R$ 44.000', totalPrice: 'R$ 440.000', features: ['Gestão de veículos ilimitados', 'Contrato de 10 anos', 'Cobrança anual simplificada', 'Atendimento personalizado'] },
 ]
 
 function Brand() {
