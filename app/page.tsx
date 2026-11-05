@@ -43,6 +43,7 @@ export default function Page() {
           <Brand />
           <nav className={`hidden items-center gap-9 text-sm md:flex ${dark ? 'text-white/60' : 'text-black/60'}`} aria-label="Navegação principal">
             <a href="#planos" className={dark ? 'text-white' : 'text-black'}>Planos e preços</a>
+            <a href="https://tlgd-tci.vercel.app" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-100">Site</a>
             <a href="#beneficios" className="transition hover:opacity-100">Benefícios</a>
             <a href="#contato" className="transition hover:opacity-100">Fale conosco</a>
           </nav>
@@ -109,16 +110,16 @@ export default function Page() {
 
       <section id="beneficios" className={`border-y px-6 py-20 text-center ${dark ? 'border-white/10 bg-[#101214]' : 'border-black/10 bg-white'}`}><p className="text-sm font-semibold text-[#4da3ff]">TLGD para o seu negócio</p><h2 className="mt-3 text-3xl font-light">Mais controle para aumentar seu lucro</h2><p className={`mx-auto mt-4 max-w-lg text-sm leading-6 ${dark ? 'text-white/55' : 'text-black/55'}`}>Tenha uma visão clara dos custos da sua operação, identifique oportunidades de economia e planeje a manutenção preventiva com mais segurança.</p></section>
       <footer id="contato" className={`px-6 py-10 text-center text-sm ${dark ? 'bg-[#08090b] text-white/50' : 'bg-[#f5f6f8] text-black/50'}`}>
-  <a
-    href="https://tlgd-tci.vercel.app"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-block transition hover:opacity-80"
-  >
-    <Brand />
-  </a>
-  <p className="mt-3">Fale com a TLGD pelo WhatsApp: +55 21 99588-8049</p>
-</footer>
+        <a
+          href="https://tlgd-tci.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block transition hover:opacity-80"
+        >
+          <Brand />
+        </a>
+        <p className="mt-3">Fale com a TLGD pelo WhatsApp: +55 21 99588-8049</p>
+      </footer>
       
     </main>
   )
